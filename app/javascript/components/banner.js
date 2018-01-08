@@ -6,13 +6,7 @@ function loadDynamicBannerText() {
     new Typed('#banner-typed-text', {
       strings: [
       "The new Digital Agency in Paris ...",
-      "Just for you ...",
-      "SnowBot",
-      "Tracks the weather",
-      "Finds the best ski resort",
-      "Finds a confortable car",
-      "Finds a warmful apartment",
-      "Finds the right package!"],
+      "Just for you ..."],
       typeSpeed: 200,
       loop: true
     });
