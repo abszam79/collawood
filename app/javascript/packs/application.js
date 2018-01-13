@@ -13,3 +13,6 @@ import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText();
 
 // import "bootstrap";
+
+import { animateValue } from '../components/counter';
+animateValue();

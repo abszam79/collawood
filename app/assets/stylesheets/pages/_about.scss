@@ -7,6 +7,12 @@
   padding: 20px;
 }
 
+.features_abt img:hover {
+  margin-top: -5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+}
+
 body {
   background: white;
 }
@@ -14,7 +20,7 @@ body {
 .features_abt img {
   width: 100%;
   border-radius: 5%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .features_abt h2 {
   font-size: 20px;
