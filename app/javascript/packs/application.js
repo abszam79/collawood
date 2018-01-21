@@ -13,11 +13,12 @@
 //= require jquery
 //= require bootstrap-sprockets
 
+import "bootstrap";
+import '../components/aos';
 import { loadDynamicBannerText } from '../components/banner';
+
 loadDynamicBannerText();
 
-// import "bootstrap";
-import '../components/aos';
 
 import { animateValue } from '../components/counter';
 animateValue();
