@@ -153,24 +153,9 @@
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div data-aos="fade-up-right">
           <img src="<%= image_path "population.jpg" %>" alt="">
-          <h1><div id="value">1610</div></h1><h2>millions</h2>
-          <script type="text/javascript">
-          function animateValue(id, start, end, duration) {
-              var range = end - start;
-              var current = start;
-              var increment = end > start? 1 : -1;
-              var stepTime = Math.abs(Math.floor(duration / range));
-              var obj = document.getElementById(id);
-              var timer = setInterval(function() {
-                  current += increment;
-                  obj.innerHTML = current;
-                  if (current == end) {
-                      clearInterval(timer);
-                  }
-              }, stepTime);
-          }
-          animateValue("value", 900, 1610, 2000);
-          </script>
+
+          <h1><div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1610' data-delay='10' data-increment="9">0</div></h1><h2>millions</h2>
+
           <p>Number of people purchasing via e-commerce</p>
           <br><br />
         </div>
@@ -179,12 +164,9 @@
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
           <img src="<%= image_path "cash.jpg" %>" alt="">
-          <!-- <h1><div id="value2">1189</div></h1><h2>USD</h2> -->
-          <h1><div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1822' data-delay='10' data-increment="9">0</div></h1>
 
-          <script type="text/javascript">
-            animateValue("value2", 300, 1189, 2000);
-          </script>
+          <h1><div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1189' data-delay='10' data-increment="9">0</div></h1><h2>USD</h2>
+
           <p>Average annual e-commerce revenue per user in 2016</p>
           <br><br />
         </div>
@@ -193,10 +175,9 @@
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
           <img src="<%= image_path "consumer.jpg" %>" alt="">
-          <h1><div id="value3">7</div></h1><h2>consumers over 10</h2>
-          <script type="text/javascript">
-            animateValue("value3", 0, 7, 5000);
-          </script>
+
+          <h1><div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='7' data-delay='2' data-increment="1">0</div></h1><h2>consumers over 10</h2>
+
           <p>Buy via Internet in France</p>
           <br><br />
         </div>
@@ -205,11 +186,15 @@
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div data-aos="fade-up-left">
           <img src="<%= image_path "sme.jpg" %>" alt="">
-          <h1><div id="value4">1</div></h1><h2>SME (PME) over 8</h2>
+
+          <h1><div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='87' data-delay='2' data-increment="1">0</div></h1><h2>% of SME (PME)</h2>
+
+       <!--    <h1><div id="value4">1</div></h1><h2>SME (PME) over 8</h2>
           <script type="text/javascript">
             animateValue("value4", 8 , 1, 6000);
-          </script>
-          <p>Is able to sell via Internet in France</p>
+          </script> -->
+
+          <p>Are not able to sell via Internet in France</p>
           <br><br />
         </div>
       </div>
