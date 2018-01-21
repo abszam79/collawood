@@ -21,10 +21,13 @@
   <div class="container text-center padded features">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <img src="<%= image_path "conception.jpg" %>" alt="">
-        <h2>Conception</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officia in illum tenetur cupiditate, quis beatae amet.</p>
+        <div data-aos="zoom-out">
+          <img src="<%= image_path "conception.jpg" %>" alt="">
+          <h2>Conception</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officia in illum tenetur cupiditate, quis beatae amet.</p>
         <br><br />
+
+        </div>
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-3">
@@ -246,6 +249,9 @@
     <!-- <a class="btn btn-primary btn-lg">Start now</a> -->
   </div>
 </div>
+
+ <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
   <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
 <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
