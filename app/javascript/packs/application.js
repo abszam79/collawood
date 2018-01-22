@@ -9,10 +9,17 @@
 
 //console.log('Hello World from Webpacker')
 
+// application.js (require bootstrap AFTER jquery)
+//= require jquery
+//= require bootstrap-sprockets
+
+import "bootstrap";
+import '../components/aos';
 import { loadDynamicBannerText } from '../components/banner';
+import '../components/numscroller-1.0';
+
 loadDynamicBannerText();
 
-// import "bootstrap";
 
 import { animateValue } from '../components/counter';
 animateValue();
