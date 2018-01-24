@@ -17,6 +17,7 @@ import "bootstrap";
 import '../components/aos';
 import { loadDynamicBannerText } from '../components/banner';
 import '../components/numscroller-1.0';
+import '../components/event.js';
 
 loadDynamicBannerText();
 
