@@ -5,9 +5,11 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 750px;
+
+  max-width: 900px;
   position: relative;
   margin: auto;
+  // border: 1px solid #888;
 }
 
 /* Next & previous buttons */
@@ -90,7 +92,7 @@ img {vertical-align: middle;}
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4;
+    opacity: .9;
   }
   to {
     opacity: 1;
@@ -99,7 +101,7 @@ img {vertical-align: middle;}
 
 @keyframes fade {
   from {
-    opacity: .4;
+    opacity: .9;
   }
   to {
     opacity: 1;

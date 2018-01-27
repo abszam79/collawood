@@ -17,10 +17,10 @@ import "bootstrap";
 import '../components/aos';
 import { loadDynamicBannerText } from '../components/banner';
 import '../components/numscroller-1.0';
-import '../components/event.js';
+import '../components/modal.js';
+import '../components/carousel.js';
 
-loadDynamicBannerText();
 
 
-import { animateValue } from '../components/counter';
-animateValue();
+
+

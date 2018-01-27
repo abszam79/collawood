@@ -14,4 +14,8 @@ function loadDynamicBannerText() {
   }
 }
 
+loadDynamicBannerText();
+
 export { loadDynamicBannerText };
+
+
