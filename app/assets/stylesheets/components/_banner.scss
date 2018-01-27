@@ -30,3 +30,36 @@
   opacity: 0.6;
   margin-bottom: 30px;
 }
+
+.banner_oth {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 500px);
+  min-height: 300px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content_oth {
+  position: absolute;
+  padding-top: 0px;
+  align-items: center;
+  display: block;
+  justify-content: space-between;
+}
+
+.banner_oth h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner_oth p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
