@@ -8,15 +8,15 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <%= link_to "About us", "about", class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Plug & Play", "templates", class: "navbar-wagon-item navbar-wagon-link" %>
     <%= link_to "Our Work", "work", class: "navbar-wagon-item navbar-wagon-link" %>
+
 
     <% if user_signed_in? %>
 
       <!-- Links when logged in -->
     <%= link_to "About us", about_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Plug & Play", templates_path, class: "navbar-wagon-item navbar-wagon-link" %>
     <%= link_to "Our Work", work_path, class: "navbar-wagon-item navbar-wagon-link" %>
+
 
       <!-- Avatar with dropdown menu -->
       <div class="navbar-wagon-item">
@@ -54,7 +54,6 @@
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
         <li><%= link_to "About us", "about", class: "navbar-wagon-item navbar-wagon-link" %></li>
-        <li><%= link_to "Plug & Play", "templates", class: "navbar-wagon-item navbar-wagon-link" %></li>
         <li><%= link_to "Our Work", "work", class: "navbar-wagon-item navbar-wagon-link" %></li>
 <!--         <li><a href="#">Some mobile link</a></li>
         <li><a href="#">Other one</a></li>

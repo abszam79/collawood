@@ -6,8 +6,8 @@ function loadDynamicBannerText() {
     new Typed('#banner-typed-text', {
       strings: [
       "The New Digital Agency...",
-      "in Artificial Intelligence...",
-      "Just for you..."],
+      "Web and ...",
+      "Artificial Intelligence..."],
       typeSpeed: 100,
       loop: true
     });
