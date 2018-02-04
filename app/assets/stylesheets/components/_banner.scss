@@ -1,13 +1,14 @@
 .banner {
   color: white;
   text-align: center;
-  height: calc(100vh - 0px);
+  height: calc(100vh - 70px);
   min-height: 300px;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  position : relative
 }
 
 .banner-content {
@@ -16,6 +17,30 @@
   align-items: center;
   display: block;
   justify-content: space-between;
+}
+
+.caption {
+
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  color: white;
+}
+
+
+.caption h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 1);
+}
+.caption p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  margin-bottom: 30px;
 }
 
 .banner h1 {
