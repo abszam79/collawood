@@ -4,13 +4,13 @@
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  padding: 0px 50px;
+  padding: 0px 25px;
   color: rgba(0,0,0,0.3);
 }
 .footer-links {
   display: flex;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .footer-links a {
   color: black;
@@ -24,4 +24,16 @@
 }
 .footer .fa-android {
   color: #D23333;
+}
+
+.jobs {
+  padding: 20px;
+  font-size: 18px;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.jobs a:hover {
+  text-decoration: none;
+   opacity: 1;
 }
