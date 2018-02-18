@@ -77,8 +77,8 @@
 .banner_oth {
   color: white;
   text-align: center;
-  height: calc(100vh - 500px);
-  min-height: 300px;
+  height: calc(100vh - 300px);
+  min-height: 350px;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;

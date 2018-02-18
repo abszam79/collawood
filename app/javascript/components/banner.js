@@ -5,9 +5,9 @@ function loadDynamicBannerText() {
   if (bannerText) {
     new Typed('#banner-typed-text', {
       strings: [
-      "La nouvelle Agence Digitale...",
-      "Web et ...",
-      "Intelligence Artificielle..."],
+      "Le nouveau modèle...",
+      "de la Menuiserie Collaborative...",
+      "en Région Parisienne..."],
       typeSpeed: 100,
       loop: true
     });
